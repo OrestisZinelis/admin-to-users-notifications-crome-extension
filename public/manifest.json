@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Organization Messages",
+  "description": "Displays organization-wide messages from an admin to users, with features to mark as read, delete, and manage messages.",
+  "version": "0.1.0",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "assets/background.js"
+  },
+  "permissions": ["storage", "notifications"]
+}
